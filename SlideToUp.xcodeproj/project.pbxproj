@@ -14,6 +14,7 @@
 		1865CD082225A77600DF19A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865CD062225A77600DF19A7 /* LaunchScreen.storyboard */; };
 		1865CD132225A77600DF19A7 /* SlideToUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865CD122225A77600DF19A7 /* SlideToUpTests.swift */; };
 		1865CD1E2225A77600DF19A7 /* SlideToUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865CD1D2225A77600DF19A7 /* SlideToUpUITests.swift */; };
+		18CFE10D222BE0AC00CEAA1C /* SlideUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFE10C222BE0AC00CEAA1C /* SlideUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1865CD192225A77600DF19A7 /* SlideToUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideToUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1865CD1D2225A77600DF19A7 /* SlideToUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideToUpUITests.swift; sourceTree = "<group>"; };
 		1865CD1F2225A77600DF19A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFE10C222BE0AC00CEAA1C /* SlideUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1865CD042225A77600DF19A7 /* Assets.xcassets */,
 				1865CD062225A77600DF19A7 /* LaunchScreen.storyboard */,
 				1865CD092225A77600DF19A7 /* Info.plist */,
+				18CFE10C222BE0AC00CEAA1C /* SlideUpView.swift */,
 			);
 			path = SlideToUp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CFE10D222BE0AC00CEAA1C /* SlideUpView.swift in Sources */,
 				1865CD002225A77500DF19A7 /* ViewController.swift in Sources */,
 				1865CCFE2225A77500DF19A7 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSWTPX3B85;
 				INFOPLIST_FILE = SlideToUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSWTPX3B85;
 				INFOPLIST_FILE = SlideToUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
